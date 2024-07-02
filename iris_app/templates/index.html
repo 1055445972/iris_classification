@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    </style>
+    <title>数据挖掘</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.2.2/echarts.min.js"></script>
+<style type="text/css">
+body {
+     height: 100%;
+     margin: 0;
+    background-color: #EAEAEF;
+}
+.chart1{
+       width:1000px;  
+       margin-right: 200px;
+       margin-right: 20px;
+       margin: 0 auto;
+}
+.chart2{
+       width:1000px;  
+       margin-right: 20px;
+       margin-right: 20px;
+       margin: 0 auto;
+}
+.chart3{
+       width:1000px;  
+       margin-right: 20px;
+       margin-right: 20px;
+       margin: 0 auto;
+}
+.bt{
+
+    text-align: center;
+ font-size: 50px;
+ color: white;
+
+}
+</style>
+</head>
+    <body >
+           <div class="bt"><h>鸢尾花数据集算法</div>
+        <div class="chart1">{{ chart_render1|safe }}</div>
+        <div class="chart2">{{ chart_render2|safe }}</div>
+        <div class="chart3"> {{ chart_render3|safe }}</div>
+</body>
+</html>
